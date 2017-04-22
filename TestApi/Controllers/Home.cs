@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace TestApi.Controllers
 {
-    [RoutePrefix("api/DDV")]
+    [RoutePrefix("api/MMM")]
     public class HomeController : ApiController
     {
         [Route("GetPrograms")]

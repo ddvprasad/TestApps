@@ -11,7 +11,8 @@ using System.Web.Http;
 
 namespace MMM_API
 {
-    
+
+    [RoutePrefix("api/MMM")]
     public class LoginAPIController : BaseAPI
     {
         //private static string STR_CONTROLLER_NAME = "LoginAPI";

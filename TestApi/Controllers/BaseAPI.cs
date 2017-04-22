@@ -13,7 +13,7 @@ using System.Web.Http;
 
 namespace MMM_API
 {
-    [RoutePrefix("api/MMM")]
+    
     public class BaseAPI : ApiController
     {
         public static string STR_CONTROLLER_NAME = "APIBaseController";
